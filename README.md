@@ -30,7 +30,8 @@ Various Python scripts for networking
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Various Python scripts for performing networking tasks. I have an interest in both networking and python so this was just to learn and have fun.
+Still have a lot to learn so any corrections or improvements on the code would be greatly appreciated.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -43,59 +44,85 @@ To use these scripts the following libraries are required.
 
 * [json](https://github.com/python/cpython/tree/3.10/Lib/json/__init__.py)
 * [socket](https://github.com/python/cpython/tree/3.10/Lib/socket.py)
-* [re]()
-* [sys]()
-* []()
-* []()
-* []()
-* []()
-
+* [re](https://github.com/python/cpython/tree/3.10/Lib/re.py)
+* [sys](https://docs.python.org/3/library/sys.html)
+* [pexpect](https://github.com/pexpect/pexpect)
+* 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
+Check that you have python 3.7 or newer.
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Script breiefs
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+JSONtoDICT.py
+Reads in json file, converts to python dictionary, accesses data and changes value, wites out new values to new json file
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+TCPEchoClient.py
+Creates TCP client socket, connects to server socket that's waiting for connection and sends user input from command line to server and receives message back.
+
+TCPEchoServer.py
+Creates TCP server socket and waits for connection. Recieves message from client and sends back. Loops so always listening for new connection
+
+TCPtoUpperClient.py
+Creates TCP client socket, connects to server socket that's waiting for connection and sends a message and receieves message back from server.
+
+TCPtoUpperServer.py
+Creates TCP server socket and waits for connection. Receives message from client, changes the message to uppercase and send the message back. Loops so always listening for new connection.
+
+dnsLookUp.py
+Takes in a domain name from command line and performs a DNS lookup, returns all IPs associated with that domain
+
+findMTU.py
+Reads inputted interface name from command line, using pexpect module to automate ifconfig command, parse for MTU of interface
+
+getMAC.py
+uses socket module functions to extract MAC address of given interface 
+
+ipconvert.py
+Receives IP from user and converts IPv4 address to 32 binary HEX value
+
+iplookup.py
+takes user inputted domain name and returns IP address' associated
+
+pexpectTelnet.py
+Automates Telnet login and uses regular expression to return hop value
+
+portScan.py
+Scans ports 1-1024 and returns protocol used, port number and service 
+
+regularExpressionIP.py
+Uses regular expression to search file for IP addresses
+
+tcpClient.py
+Creates TCP client socket, connects to server socket that's waiting for connection and sends user input from command line to server and receives message back.
+
+tcpPortScanner.py
+Scans networks ports and returns open ports
+
+tcpServer.py
+Creates TCP server socket and waits for connection. Recieves message from client and sends back. Loops so always listening for new connection
+
+udpClient.py
+Creates UDP client socket, connects to server socket that's waiting for connection and sends user input from command line to server and receives message back.
+
+udpServer.py
+Creates UDP server socket and waits for connection. Recieves message from client and sends back. Loops so always listening for new connection
+
+udpimageClient.py
+Creates UDP client socket, connects to server socket that's waiting for connection and sends image to server and receives copy sent back
+
+udpimageServer.py 
+Creates UDP server socket and waits for connection. Recieves image from client and sends back a copy. Loops so always listening for new connection
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -134,13 +161,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
