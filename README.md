@@ -64,10 +64,12 @@ Check that you have python 3.7 or newer.
 <!-- USAGE EXAMPLES -->
 ## Script breiefs
 
-JSONtoDICT.py
+###JSONtoDICT.py
+
 Reads in json file, converts to python dictionary, accesses data and changes value, wites out new values to new json file
 
-TCPEchoClient.py
+###TCPEchoClient.py
+
 Creates TCP client socket, connects to server socket that's waiting for connection and sends user input from command line to server and receives message back.
 
 TCPEchoServer.py
