@@ -11,9 +11,8 @@ Various Python scripts for networking
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <a href="#script-briefs">Script briefs</a>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#script-briefs">Script briefs</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
