@@ -37,18 +37,18 @@ Various Python scripts for networking
 
 
 
-### Built With
+### Python Libraries used
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+To use these scripts the following libraries are required.
 
-* [json](https://docs.python.org/3/library/json.html)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [json](https://github.com/python/cpython/tree/3.10/Lib/json/__init__.py)
+* [socket](https://github.com/python/cpython/tree/3.10/Lib/socket.py)
+* [re]()
+* [sys]()
+* []()
+* []()
+* []()
+* []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
