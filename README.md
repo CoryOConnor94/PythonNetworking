@@ -13,7 +13,7 @@ Various Python scripts for networking
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <a href="script-briefs">Script briefs</a>
+      <a href="#script-briefs">Script briefs</a>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -57,7 +57,7 @@ Check that you have python 3.7 or newer.
 
 
 <!-- SCRIPT BRIEFS -->
-## Script breiefs
+## Script briefs
 
 ### JSONtoDICT.py
 Reads in json file, converts to python dictionary, accesses data and changes value, wites out new values to new json file
