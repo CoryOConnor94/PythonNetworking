@@ -64,66 +64,66 @@ Check that you have python 3.7 or newer.
 <!-- USAGE EXAMPLES -->
 ## Script breiefs
 
-###JSONtoDICT.py
+### JSONtoDICT.py
 
 Reads in json file, converts to python dictionary, accesses data and changes value, wites out new values to new json file
 
-###TCPEchoClient.py
+### TCPEchoClient.py
 
 Creates TCP client socket, connects to server socket that's waiting for connection and sends user input from command line to server and receives message back.
 
-TCPEchoServer.py
+### TCPEchoServer.py
 Creates TCP server socket and waits for connection. Recieves message from client and sends back. Loops so always listening for new connection
 
-TCPtoUpperClient.py
+### TCPtoUpperClient.py
 Creates TCP client socket, connects to server socket that's waiting for connection and sends a message and receieves message back from server.
 
-TCPtoUpperServer.py
+### TCPtoUpperServer.py
 Creates TCP server socket and waits for connection. Receives message from client, changes the message to uppercase and send the message back. Loops so always listening for new connection.
 
-dnsLookUp.py
+### dnsLookUp.py
 Takes in a domain name from command line and performs a DNS lookup, returns all IPs associated with that domain
 
-findMTU.py
+### findMTU.py
 Reads inputted interface name from command line, using pexpect module to automate ifconfig command, parse for MTU of interface
 
-getMAC.py
+### getMAC.py
 uses socket module functions to extract MAC address of given interface 
 
-ipconvert.py
+### ipconvert.py
 Receives IP from user and converts IPv4 address to 32 binary HEX value
 
-iplookup.py
+### iplookup.py
 takes user inputted domain name and returns IP address' associated
 
-pexpectTelnet.py
+### pexpectTelnet.py
 Automates Telnet login and uses regular expression to return hop value
 
-portScan.py
+### portScan.py
 Scans ports 1-1024 and returns protocol used, port number and service 
 
-regularExpressionIP.py
+### regularExpressionIP.py
 Uses regular expression to search file for IP addresses
 
-tcpClient.py
+### tcpClient.py
 Creates TCP client socket, connects to server socket that's waiting for connection and sends user input from command line to server and receives message back.
 
-tcpPortScanner.py
+### tcpPortScanner.py
 Scans networks ports and returns open ports
 
-tcpServer.py
+### tcpServer.py
 Creates TCP server socket and waits for connection. Recieves message from client and sends back. Loops so always listening for new connection
 
-udpClient.py
+### udpClient.py
 Creates UDP client socket, connects to server socket that's waiting for connection and sends user input from command line to server and receives message back.
 
-udpServer.py
+### udpServer.py
 Creates UDP server socket and waits for connection. Recieves message from client and sends back. Loops so always listening for new connection
 
-udpimageClient.py
+### udpimageClient.py
 Creates UDP client socket, connects to server socket that's waiting for connection and sends image to server and receives copy sent back
 
-udpimageServer.py 
+### udpimageServer.py 
 Creates UDP server socket and waits for connection. Recieves image from client and sends back a copy. Loops so always listening for new connection
 
 <p align="right">(<a href="#top">back to top</a>)</p>
