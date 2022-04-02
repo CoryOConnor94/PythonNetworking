@@ -41,7 +41,7 @@ To use these scripts the following libraries are required.
 * [re](https://github.com/python/cpython/tree/3.10/Lib/re.py)
 * [sys](https://docs.python.org/3/library/sys.html)
 * [pexpect](https://github.com/pexpect/pexpect)
-* 
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
