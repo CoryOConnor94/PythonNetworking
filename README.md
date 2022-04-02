@@ -13,12 +13,7 @@ Various Python scripts for networking
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
+      <a href="script-briefs">Script briefs</a>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -61,15 +56,13 @@ Check that you have python 3.7 or newer.
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- SCRIPT BRIEFS -->
 ## Script breiefs
 
 ### JSONtoDICT.py
-
 Reads in json file, converts to python dictionary, accesses data and changes value, wites out new values to new json file
 
 ### TCPEchoClient.py
-
 Creates TCP client socket, connects to server socket that's waiting for connection and sends user input from command line to server and receives message back.
 
 ### TCPEchoServer.py
