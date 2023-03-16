@@ -17,8 +17,8 @@ Various Python scripts for networking
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Various Python scripts for performing networking tasks. I have an interest in both networking and python so this was just to learn and have fun.
-Still have a lot to learn so any corrections or improvements on the code would be greatly appreciated.
+Various Python scripts for performing networking tasks.
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
