@@ -51,14 +51,23 @@ Check that you have python 3.7 or newer.
 <!-- SCRIPT BRIEFS -->
 ## Script briefs
 
-### JSONtoDICT.py
-Reads in json file, converts to python dictionary, accesses data and changes value, wites out new values to new json file
+### ping_ips.py
+Script to read IPs from given csv or excel file, Ping IPs and output results to csv 
 
-### TCPEchoClient.py
+### tcp_echo_client.py
 Creates TCP client socket, connects to server socket that's waiting for connection and sends user input from command line to server and receives message back.
 
-### TCPEchoServer.py
+### tcp_echo_server.py
 Creates TCP server socket and waits for connection. Recieves message from client and sends back. Loops so always listening for new connection
+
+### dns_lookup.py
+Takes in a domain name from command line and performs a DNS lookup, returns all IPs associated with that domain
+
+### find_mtu.py
+Reads inputted interface name from command line, using pexpect module to automate ifconfig command, parse for MTU of interface
+
+### get_mac_address.py
+uses socket module functions to extract MAC address of given interface 
 
 ### TCPtoUpperClient.py
 Creates TCP client socket, connects to server socket that's waiting for connection and sends a message and receieves message back from server.
@@ -66,17 +75,11 @@ Creates TCP client socket, connects to server socket that's waiting for connecti
 ### TCPtoUpperServer.py
 Creates TCP server socket and waits for connection. Receives message from client, changes the message to uppercase and send the message back. Loops so always listening for new connection.
 
-### dnsLookUp.py
-Takes in a domain name from command line and performs a DNS lookup, returns all IPs associated with that domain
-
-### findMTU.py
-Reads inputted interface name from command line, using pexpect module to automate ifconfig command, parse for MTU of interface
-
-### getMAC.py
-uses socket module functions to extract MAC address of given interface 
-
 ### ipconvert.py
 Receives IP from user and converts IPv4 address to 32 binary HEX value
+
+### JSONtoDICT.py
+Reads in json file, converts to python dictionary, accesses data and changes value, wites out new values to new json file
 
 ### iplookup.py
 takes user inputted domain name and returns IP address' associated
